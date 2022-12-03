@@ -14,7 +14,7 @@ struct Create_Account: View {
     @State private var lastName: String = ""
     @State private var username: String = ""
     @State private var password: String = ""
-    @State private var selectedAilment = "Select One"
+    @State private var selectedAilment = "Select1 One"
     let ailments = ["Select One", "Depression","Bi-Polar Disorder", "Body Dysmorphia", "Anxiety",  "Obsessive Compulsive Disorder","ADHD", "Insomnia","PTSD", "Schizophrenia","Multiple", "Other"]
     
     var body: some View {
